@@ -1,0 +1,20 @@
+.button {
+    cursor: pointer;
+
+    color: $color-white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+    background-color: $main-color;
+
+    transition: background-color .2s linear;
+    &:hover {
+        background-color: lighten($color: $main-color, $amount: 5)
+    }
+}
