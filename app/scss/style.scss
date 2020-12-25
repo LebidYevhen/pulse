@@ -4,11 +4,16 @@
 @import './blocks/header';
 @import './base/variables';
 @import './blocks/buttons';
+@import './blocks/advantages';
+@import './blocks/consultation';
+@import './blocks/forms';
+@import './blocks/carousel';
+@import './base/media';
 
 * {
     font-family: 'Museo Sans';
     box-sizing: border-box;
-    line-height: 1;
+    line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }

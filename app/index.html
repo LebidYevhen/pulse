@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    
-    <div class="promo">
+
+    <!-- Section promo -->
+
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a class="header__logo">
@@ -48,10 +53,99 @@
                 <button class="button">заказать КОНСУЛЬТАЦИЮ</button>
                 <a class="promo__link" href="#">или <span>перейти в каталог</span></a>
             </div>
-            
+
+        </div> <!-- /.container -->
+    </section> <!-- /.promo -->
+
+
+    <!-- Section advantages -->
+
+
+    <section class="advantages">
+        <div class="container">
+            <h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantages__items">
+                <div class="advantages__item item">
+                    <div class="item__image">
+                        <img src="images/section_advantages/advantages_cup.png" alt="Cup">
+                    </div>
+                    <h5 class="item__title">Делимся опытом</h5>
+                    <div class="item__description">
+                        Наши сотрудники всегда готовы поделиться своим опытом,
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                    </div>
+                </div>
+                <div class="advantages__item item">
+                    <div class="item__image">
+                        <img src="images/section_advantages/advantages_heart.png" alt="Heart">
+                    </div>
+                    <h5 class="item__title">Заботимся о здоровье</h5>
+                    <div class="item__description">
+                        Мы работаем для того,
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и
+                        Вашим близким!
+                    </div>
+                </div>
+                <div class="advantages__item item">
+                    <div class="item__image">
+                        <img src="images/section_advantages/advantages_cup.png" alt="Run">
+                    </div>
+                    <h5 class="item__title">Учим бегать</h5>
+                    <div class="item__description">
+                        Помогаем с обучением
+                        правильной технике бега!
+                        Дружим с крупнейшей школой бега в России -
+                        <span>I LOVE RUNNING.</span>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </section> <!-- /.advantages -->
+
+    <!-- Section consultation -->
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="consultation__title">
+                Получите бесплатную консультацию <br> по подбору пульсометра
+            </h2>
+            <div class="consultation__description">
+                Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш e-mail">
+
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
 
         </div>
-    </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="images/section_catalog/clocks_1.jpg" alt="Slide">
+                </div>
+                <div>
+                    <img src="images/section_catalog/clocks_2.jpg" alt="Slide">
+                </div>
+                <div>
+                    <img src="images/section_catalog/clocks_3.jpg" alt="Slide">
+                </div>
+              </div>
+        </div>
+    </section>
+    
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
 
 </body>
+
 </html>
