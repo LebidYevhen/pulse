@@ -223,4 +223,17 @@
             max-width: 100%;
         }
     }
+    .feed-form {
+        width: 200px;
+    }
+    .modal {
+        padding: 15px;
+        width: 250px;
+        &__close {
+            right: -27px;
+        }
+    }
+    .button_submit {
+        font-size: 14px;
+    }
 }
