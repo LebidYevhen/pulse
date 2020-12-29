@@ -17,6 +17,14 @@
         font-weight: 700;
         text-align: center;
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
 
 .item {
@@ -44,4 +52,5 @@
             text-transform: uppercase;
         }
     }
+    
 }
