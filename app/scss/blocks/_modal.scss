@@ -42,6 +42,15 @@
     &_mini {
         min-height: 140px;
     }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error {
+        margin-bottom: 15px;
+
+        text-align: center;
+        border: none;
+    }
 }
 
 #consultation,
